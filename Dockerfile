@@ -1,4 +1,4 @@
 FROM java
 COPY Sample.java .
-RUN javac java
+RUN javac Sample.java
 CMD ["java","Sample"]
